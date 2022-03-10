@@ -1,0 +1,3 @@
+#!/usr/bin/env ruby
+
+system('bin/rails s -p 3010')
