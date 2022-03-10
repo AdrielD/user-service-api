@@ -1,0 +1,20 @@
+default: &default
+  adapter: postgresql
+  encoding: unicode
+  pool: 5
+  # timeout: 5000
+
+development:
+  <<: *default
+  database: user_service_api_development
+  username: postgres
+  password: docker
+  host: localhost
+
+test:
+  <<: *default
+  database: user_service_api_test
+
+production:
+  <<: *default
+  database: user_service_api
