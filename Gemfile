@@ -10,6 +10,7 @@ gem 'pg', '~> 1.1'
 gem 'puma', '~> 5.0'
 gem 'devise'
 # gem 'rack-cors'
+gem 'active_model_serializers', '~> 0.10.0'
 
 group :development do
   gem 'bundle-audit'
